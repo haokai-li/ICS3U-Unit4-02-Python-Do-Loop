@@ -18,7 +18,7 @@ def main():
     try:
         user_number = int(user_string)
         if user_number < 0:
-            print("You did not enter a psoitive integer.")
+            print("You did not enter a positive integer.")
         else:
             while loop_number < user_number:
                 loop_number = loop_number + 1
